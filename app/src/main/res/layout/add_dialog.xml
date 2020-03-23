@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+//弹出框 获取物品名称 写入列表
+    <EditText
+        android:id="@+id/add_new_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="物品名称" />
+
+</LinearLayout>

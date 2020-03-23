@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/lr">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_Thing"
+            style="@style/RadioButtonBottomTab"
+            android:background="@animator/out_t"
+            android:text="物品"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:id="@+id/rb_manage"
+            style="@style/RadioButtonBottomTab"
+            android:text="分组"
+            android:layout_height="wrap_content"
+            android:background="@animator/out_t"></RadioButton>
+    </RadioGroup>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fr"></FrameLayout>
+
+</LinearLayout>

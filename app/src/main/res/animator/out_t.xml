@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--button点击与不点击时图标的显现状态-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--这个是未选中的状态样式  图片大家可以叫美工给 -->
+    <item
+        android:state_checked="false"
+        android:drawable="@drawable/ic_rectange"/>
+    <!--  这个是选中的状态样式  图片大家可以叫美工给 -->
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/blue"/>
+
+
+</selector>

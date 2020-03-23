@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/connect"
+        android:title="连接"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/exit"
+        android:title="退出"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/add_new"
+        android:title="添加分组"
+        android:orderInCategory="1" />
+
+
+
+
+</menu>
